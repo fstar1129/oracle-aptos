@@ -1,0 +1,10 @@
+[package]
+name = 'oracle'
+version = '0.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/polaris-labs/oracle-aptos'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+oracle = "0x45EC436AA15FCCEAE3452AF559621B7F2056E1DF6926D10A55B1C7308D38CAA0"
